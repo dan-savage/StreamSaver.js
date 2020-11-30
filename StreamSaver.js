@@ -33,7 +33,7 @@
 		WritableStream: window.WritableStream || ponyfill.WritableStream,
 		supported: true,
 		version: { full: "2.0.0", major: 2, minor: 0, dot: 0 },
-		mitm: `http://${location.hostname}:8082/mitm.html`,
+		mitm: `https://${location.hostname}:8082/mitm.html`,
 	};
 
 	/**
